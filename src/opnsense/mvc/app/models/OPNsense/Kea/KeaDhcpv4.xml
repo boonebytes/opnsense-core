@@ -126,6 +126,18 @@
                     <IsDNSName>Y</IsDNSName>
                 </hostname>
                 <description type="DescriptionField"/>
+                <routers type="NetworkField">
+                    <NetMaskAllowed>N</NetMaskAllowed>
+                    <AddressFamily>ipv4</AddressFamily>
+                    <AsList>Y</AsList>
+                    <FieldSeparator>,</FieldSeparator>
+                </routers>
+                <domain_name_servers type="NetworkField">
+                    <NetMaskAllowed>N</NetMaskAllowed>
+                    <AddressFamily>ipv4</AddressFamily>
+                    <AsList>Y</AsList>
+                    <FieldSeparator>,</FieldSeparator>
+                </domain_name_servers>
             </reservation>
         </reservations>
         <ha_peers>
